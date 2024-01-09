@@ -1841,10 +1841,14 @@ a:hover {
     scrollbar-width: none;
     box-shadow: 0 0 0 100vw rgba(80, 78, 243, 0.8);
 }
+
+.dialog-modal.notification._active {
+    opacity: 1;
+    pointer-events: unset
+}
 .dialog-modal.notification {
     padding: 5em;
     top: 20%;
-    border-radius: 0;
 }
 .dialog-modal.notification .dialog-modal__inner {
     display: flex;
@@ -2052,6 +2056,7 @@ a:hover {
     .dialog-modal.notification {
         padding: 5em;
         top: 0;
+        border-radius: 0;
     }
     .dialog-modal .dialog-modal__inner {
         border-radius: 0;
