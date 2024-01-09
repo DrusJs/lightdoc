@@ -2680,7 +2680,8 @@ a:hover {
     .tariffs .swiper-slide-next,
     .tariffs .swiper-slide-next+.swiper-slide,
     .tariffs .swiper-slide-next+.swiper-slide+.swiper-slide {
-        opacity: 1
+        opacity: 1;
+        max-height: 350px;
     }
 }
 
