@@ -1843,6 +1843,7 @@ a:hover {
 .dialog-modal.notification {
     padding: 5em;
     top: 20%;
+    border-radius: 0;
 }
 .dialog-modal.notification .dialog-modal__inner {
     display: flex;
