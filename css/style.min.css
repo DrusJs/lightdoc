@@ -1822,12 +1822,12 @@ a:hover {
     -webkit-transition: opacity .6s, -webkit-transform .4s;
     transition: opacity .6s, transform .4s, -webkit-transform .4s;
     -o-transition: opacity .6s, transform .4s;
-    -webkit-transform: translateY(-200%);
-    -ms-transform: translateY(-200%);
-    transform: translateY(-200%);
     position: fixed;
     top: 34px;
-    left: 30%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     width: fit-content;
     max-height: 90vh;
     border-radius: 10px;
@@ -1868,9 +1868,6 @@ a:hover {
 .dialog-modal {
     z-index: 101;
     padding: 5em;
-    -webkit-transform: unset;
-    -ms-transform: unset;
-    transform: unset
 }
 
 .dialog-modal__close {
@@ -2600,6 +2597,10 @@ a:hover {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 1em
+}
+
+.company-card {
+    opacity: 1 !important;
 }
 
 .company-card:hover {
