@@ -640,7 +640,8 @@ a:hover {
 
 .swiper-nav .swiper-button {
     position: static;
-    margin: 0 .3125em
+    margin: 0 .3125em;
+    min-width: 44px;
 }
 
 .swiper-button {
