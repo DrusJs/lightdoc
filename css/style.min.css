@@ -2049,6 +2049,9 @@ a:hover {
         max-height: none;
         top: 0;
         left: 0;
+        transform: translateX(0);
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
     }
     .dialog-modal.notification {
         padding: 5em;
@@ -2599,9 +2602,6 @@ a:hover {
     padding: 1em
 }
 
-.company-card {
-    opacity: 1 !important;
-}
 
 .company-card:hover {
     border-color: #504ef3
